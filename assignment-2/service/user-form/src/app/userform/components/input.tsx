@@ -26,7 +26,6 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(function Input (
           error && 'border-[#FB0000]',
           customStyle
         )}
-        placeholder='(例)トレタ 太郎'
         {...props} />
       {error && <span className='font-normal text-[#FB0000] text-[10px]'>{error}</span>}
     </span>
